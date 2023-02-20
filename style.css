@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+  
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.logo1 {
+    height: 80px;
+    padding-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type:none;
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px 0 0; 
+}
+
+nav li a {
+    background: #05dede;
+    padding: 10px 20px;
+    white-space: nowrap;
+    color: black;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+nav li a:hover{ 
+    color: aliceblue;
+    background-color: rgb(4, 104, 108);
+    transition:all 0.2s ease-in-out;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    align-items: center;
+    justify-content: center; 
+ 
+}
+
+header {
+    position:relative;
+    z-index: 1;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+    z-index: 2;
+}
+
+.peu {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    z-index: 3;
+    font-size: 30px;
+    margin: auto;
+
+}
+
+nav h1 {
+    margin: 0;
+    position: relative;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.titlu {
+    margin: 0;
+    position: relative;
+    height: 60px;
+    font-size: 50px;
+    text-align: center ;
+    padding: 20px; 
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(229, 225, 225);
+    margin-bottom: 30px;
+}
+
+h2 {
+    position: relative;
+    z-index: 4;
+    margin-top: 0px;
+    font-size: 33px;
+    padding: 20px;
+    text-align: center;
+}
+
+.h2acasa {
+    text-align: center;
+    font-size: 33px;
+    padding: 30px;
+    background-color: rgb(229, 225, 225);
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.prgf {
+    margin: auto;
+    width: 70%;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    height:500px;
+    width:600px;
+}
+
+.menu {
+  
+  width: 40%;
+  height: 40%;
+  border: 3px solid black;
+  border-style: dashed;
+  background: hsl(184, 92%, 85%);
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row ul {
+    list-style-type:none;
+    width: 25%;
+}
+
+.row li {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.premii {
+    border-radius: 5%;
+    border-style:dotted;
+    background-color:antiquewhite;
+    min-width: 17%;
+    margin:20px;  
+    height: 200px; 
+    padding: 15px;
+}
+
+.premii p {
+    text-align: center;
+}
+
+.container {
+    width:70%;
+    display: flex;
+}
+
+.card {
+    padding: 10px;
+}
+
+.carduri {
+    border-radius: 8%;
+    box-shadow: 8px 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 20px;
+    min-height: 32em;
+}
+
+.carduri p {
+    text-align: center;
+    padding: 10px;
+}
+
+.carduri img {
+    border-radius: 4%;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.card h2 {
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:hsl(184, 92%, 85%);
+}
+
+.card li {
+    font-size: 25px;
+}
+
+.card ul {
+    list-style-type:none;
+}
+
+.sm {
+    height: 60px;
+    padding-left: 15px;
+}
+
+.blank {
+    margin-top: 20px;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+footer p {
+    font-size: 18px;
+    text-align:center;
+    color: azure;
+}
+
+footer img {
+    height:80px;      
+}
+
+footer strong {
+    font-size: 50px;
+}
